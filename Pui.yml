@@ -1,0 +1,9 @@
+VIPER:
+  Target: SampleSpriteKit
+  TemplateDirectoryPath: ./templates/PuiTemplate/ios/VIPER
+  GenerateRootPath: ./SampleSpriteKit
+
+MVC_COLLECTION:
+  Target: SampleSpriteKit
+  TemplateDirectoryPath: ./templates/PuiTemplate/ios/MVC_COLLECTION
+  GenerateRootPath: ./SampleSpriteKit
