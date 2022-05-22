@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "DeclarativeUIKit",
+        "repositoryURL": "https://github.com/sakiyamaK/DeclarativeUIKit",
+        "state": {
+          "branch": null,
+          "revision": "fba2956cf0b80d0938316a7e13b14a00c3738fda",
+          "version": "0.21.0"
+        }
+      },
+      {
         "package": "Kingfisher",
         "repositoryURL": "https://github.com/onevcat/Kingfisher",
         "state": {

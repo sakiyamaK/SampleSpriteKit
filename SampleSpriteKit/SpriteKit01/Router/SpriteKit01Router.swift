@@ -18,7 +18,7 @@ final class SpriteKit01Router {
   }
 
   static func assembleModules() -> UIViewController {
-    let view = UIStoryboard.loadSpriteKit01()
+    let view = SpriteKit01ViewController()
     let interactor = SpriteKit01Interactor()
     let router = SpriteKit01Router(viewController: view)
     let presenter = SpriteKit01Presenter(
@@ -32,10 +32,4 @@ final class SpriteKit01Router {
 }
 
 extension SpriteKit01Router: SpriteKit01Wireframe {
-}
-
-extension UIStoryboard {
-  static func loadSpriteKit01() -> SpriteKit01ViewController {
-    UIStoryboard(name: "SpriteKit01", bundle: nil).instantiateInitialViewController() as! SpriteKit01ViewController 
-  }
 }

@@ -12,11 +12,9 @@
 		0F6AA1A2DF3273320B1B871D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683071019B9D16CE2329EC8F /* GameScene.swift */; };
 		16B4FC094F42C81DDA9F5301 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E6EA197970EEB1BF6E6D7 /* HomeInteractor.swift */; };
 		1791F98D03A4A6DB006BA6AF /* SpriteKit01Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D49D38ECE033511116A3C4 /* SpriteKit01Presenter.swift */; };
-		1FA338C8789F416403124380 /* SpriteKit01.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F09DA9190E91B30FBA3C5C6 /* SpriteKit01.storyboard */; };
 		37378C26E2BB4E60ABA63BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757A07E1B3C7521070A49C2F /* Assets.xcassets */; };
 		49E6ABC55A6CD3E66B418AF6 /* SpriteKit01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88994748528F7CF1C8273178 /* SpriteKit01ViewController.swift */; };
 		56A30D44FABE0B6510B7033A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C607AC577BF8B77804986C8 /* AppDelegate.swift */; };
-		58ABF9DC42CA42CF55464AE3 /* Infoのコピー.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D7844339C24120CFB8C28D9 /* Infoのコピー.plist */; };
 		7B010989FE6AFC13FB2CB049 /* SpriteKit01Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1288E9C8596AC4CAB32ABF0 /* SpriteKit01Entity.swift */; };
 		7D51C1F7C7470FD8970E39BE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EB2FB76BEBF931D62B31F796 /* Kingfisher */; };
 		7DDD0B384574758BA38237E3 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D86BBC88863D32E150392A /* AppInteractor.swift */; };
@@ -27,6 +25,7 @@
 		A1E8788FE1AA9BD9ADDD3BBC /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73852F29282B5C3C293FF99F /* HomePresenter.swift */; };
 		A3D4B95B3BAFC3E1A4A76BE1 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9EA2D9759316ECBAD9884 /* UIViewController+.swift */; };
 		B42C876EE8D202E1AF4D2EBA /* AppPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417C5483AF0B68676B4A309 /* AppPresenter.swift */; };
+		B6A46CC027D9FD6300708D4B /* DeclarativeUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6A46CBF27D9FD6300708D4B /* DeclarativeUIKit */; };
 		B6CE08D62643B80B00A0DBA9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CE08D52643B80B00A0DBA9 /* Launch Screen.storyboard */; };
 		E6A952274991C71023AD5BF3 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF503DDB4E447C712617F4B9 /* Log.swift */; };
 		F5D73A76C7310255AA206D81 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13289F2DF52D4D3952C8763 /* AppRouter.swift */; };
@@ -35,10 +34,8 @@
 /* Begin PBXFileReference section */
 		06D86BBC88863D32E150392A /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		0C607AC577BF8B77804986C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F09DA9190E91B30FBA3C5C6 /* SpriteKit01.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpriteKit01.storyboard; sourceTree = "<group>"; };
 		15DD75274D7090082BCC92E8 /* AppEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntity.swift; sourceTree = "<group>"; };
 		3417C5483AF0B68676B4A309 /* AppPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresenter.swift; sourceTree = "<group>"; };
-		4D7844339C24120CFB8C28D9 /* Infoのコピー.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Infoのコピー.plist"; sourceTree = "<group>"; };
 		551D9931AAC3E1BEEA537529 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		683071019B9D16CE2329EC8F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		691A15588B0270ED9377AA7C /* SpriteKit01Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit01Router.swift; sourceTree = "<group>"; };
@@ -64,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A46CC027D9FD6300708D4B /* DeclarativeUIKit in Frameworks */,
 				7D51C1F7C7470FD8970E39BE /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				683071019B9D16CE2329EC8F /* GameScene.swift */,
-				0F09DA9190E91B30FBA3C5C6 /* SpriteKit01.storyboard */,
 				88994748528F7CF1C8273178 /* SpriteKit01ViewController.swift */,
 			);
 			path = View;
@@ -135,7 +132,6 @@
 				0C607AC577BF8B77804986C8 /* AppDelegate.swift */,
 				757A07E1B3C7521070A49C2F /* Assets.xcassets */,
 				CC45CB2DFA7883FD8E24B2EA /* Info.plist */,
-				4D7844339C24120CFB8C28D9 /* Infoのコピー.plist */,
 				907D65DC069CC6BD1D31D59D /* App */,
 				BB8E43F948082F6D43AB40CD /* Extension */,
 				0D260483DA516DBCEFFAF6A8 /* Helper */,
@@ -287,6 +283,7 @@
 			name = SampleSpriteKit;
 			packageProductDependencies = (
 				EB2FB76BEBF931D62B31F796 /* Kingfisher */,
+				B6A46CBF27D9FD6300708D4B /* DeclarativeUIKit */,
 			);
 			productName = SampleSpriteKit;
 			productReference = D7E08C62BCEBF12B7814F3CA /* SampleSpriteKit.app */;
@@ -311,6 +308,7 @@
 			mainGroup = BBBE8A3DDD7792CE912829CC;
 			packageReferences = (
 				104910102B5C742605F94C1F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B6A46CBE27D9FD6300708D4B /* XCRemoteSwiftPackageReference "DeclarativeUIKit" */,
 			);
 			projectDirPath = "";
 			projectRoot = "";
@@ -327,8 +325,6 @@
 			files = (
 				B6CE08D62643B80B00A0DBA9 /* Launch Screen.storyboard in Resources */,
 				37378C26E2BB4E60ABA63BFC /* Assets.xcassets in Resources */,
-				58ABF9DC42CA42CF55464AE3 /* Infoのコピー.plist in Resources */,
-				1FA338C8789F416403124380 /* SpriteKit01.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,9 +542,22 @@
 				minimumVersion = 6.3.0;
 			};
 		};
+		B6A46CBE27D9FD6300708D4B /* XCRemoteSwiftPackageReference "DeclarativeUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sakiyamaK/DeclarativeUIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.21.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B6A46CBF27D9FD6300708D4B /* DeclarativeUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6A46CBE27D9FD6300708D4B /* XCRemoteSwiftPackageReference "DeclarativeUIKit" */;
+			productName = DeclarativeUIKit;
+		};
 		EB2FB76BEBF931D62B31F796 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 104910102B5C742605F94C1F /* XCRemoteSwiftPackageReference "Kingfisher" */;
